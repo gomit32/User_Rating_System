@@ -1,5 +1,4 @@
 // config/database.js
-
 const { Sequelize } = require('sequelize');
 const dotenv = require('dotenv');
 
@@ -16,5 +15,4 @@ const sequelize = new Sequelize(
     logging: false, // Set to true to see SQL queries in the console
   }
 );
-
 module.exports = sequelize;
